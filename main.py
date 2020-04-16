@@ -18,4 +18,4 @@ def resume_page():
 
 @main.route("/projects")
 def interest_page():
-    return render_template("portfolio.html")
+    return render_template("projects.html")
