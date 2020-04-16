@@ -44,7 +44,6 @@ body {
 	font-size: 13px;
 	color: #363636;
     background: #fff;
-    background-image: url("./static/images/background.jpg");
 	letter-spacing: 0;
 	font-weight: 400;
 }
@@ -78,7 +77,8 @@ body.loaded .section {
 	position: relative;
 	margin: 30px;
 	overflow: hidden;
-	background: #ffffff;
+    background: #ffffff;
+    background-image: url("./static/images/background.jpg");
 }
 
 @media (max-width: 840px) {
