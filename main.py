@@ -1,6 +1,8 @@
 from flask import Blueprint
 from flask import render_template
 from flask import redirect
+from flask import request
+from flask_mail import Message
 
 main = Blueprint('main', __name__)
 
@@ -16,6 +18,12 @@ def contacts_page():
 def resume_page():
     return render_template("resume.html")
 
-@main.route("/projects")
+@main.route("/portfolio")
 def interest_page():
-    return render_template("projects.html")
+    return render_template("portfolio.html")
+
+@main.route("/submitmsg", methods = ['POST', 'GET'])
+def msg():
+        result = request.form
+        print(result)
+        return redirect("/contacts")

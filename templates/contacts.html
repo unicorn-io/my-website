@@ -57,9 +57,9 @@
 				<a href="#" class="menu-btn"><span></span></a>
 				<div class="top-menu">
 					<ul>
-						<li><a href="" class="lnk">Home</a></li>
+						<li><a href="/" class="lnk">Home</a></li>
 						<li><a href="resume" class="lnk">Resume</a></li>
-                        <li><a href="projects" class="lnk">Projects</a></li>
+                        <li><a href="portfolio" class="lnk">Portfolio</a></li>
 						<li><a href="contacts" class="btn">Contacts</a></li>
 					</ul>
 				</div>
@@ -103,7 +103,7 @@
 							<div class="icon"><span class="ion ion-email"></span></div>
 							<div class="name">Email</div>
 							<p>
-								<a href="mailto:steve-pearson@gmail.com">tayalvishesh83@gmail.com</a>
+								<a href="tayalvishesh83@gmail.com">tayalvishesh83@gmail.com</a>
 							</p>
 						</div>
 						<div class="service-item">
@@ -115,7 +115,7 @@
 						</div>
 					</div>
 					<div class="contact_form">
-						<form id="cform" method="post">
+						<form action="/submitmsg" method="POST">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Name" />
 							</div>
@@ -125,13 +125,8 @@
 							<div class="group-val ct-gr">
 								<textarea name="message" placeholder="Message"></textarea>
 							</div>
-							<a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a>
+                            <button class="btn fill" type="submit" value="submit">Send Message</button>
 						</form>
-						<div class="alert-success">
-							<p>
-								Thanks, your message is sent successfully. We will contact you shortly!
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -77,9 +77,10 @@ body.loaded .section {
 	position: relative;
 	margin: 30px;
 	overflow: hidden;
-    background: #ffffff;
-    background-image: url("./static/images/background.jpg");
+    background: #b8d3df;
+    
 }
+
 
 @media (max-width: 840px) {
 	.container {
@@ -91,7 +92,7 @@ body.loaded .section {
 .container .line {
 	content: '';
 	position: fixed;
-	background: #f26b38;
+    background: #ad1111;
 	z-index: 105;
 }
 
@@ -157,7 +158,7 @@ body.loaded .section {
 	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
-	max-width: 1060px;
+    max-width: 1060px;
 }
 
 /* 3. Columns */
@@ -266,7 +267,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #f26b38;
+	color: #df3822;
 }
 
 /* 6. Buttons */
@@ -294,15 +295,15 @@ a.btn,
 a.btn.fill,
 .btn.fill {
 	color: #ffffff;
-	background: #f26b38;
-	border: 1px solid #f26b38;
+	background: #df3822;
+	border: 1px solid #df3822;
 }
 
 a.btn:hover,
 .btn:hover {
 	color: #ffffff;
-	background: #f26b38;
-	border: 1px solid #f26b38;
+	background: #df3822;
+	border: 1px solid #df3822;
 }
 
 /* 7. Preloader */
@@ -317,13 +318,13 @@ a.btn:hover,
 }
 
 .preloader .load {
-	color: #f26b38;
+	color: #df3822;
 	font-size: 12px;
 }
 
 .preloader .typed-load,
 .preloader .typed-cursor {
-	color: #f26b38;
+	color: #df3822;
 	font-size: 12px;
 }
 
@@ -359,7 +360,7 @@ input:focus,
 textarea:focus,
 button:focus {
 	color: #141414;
-	border-bottom: 1px solid #f26b38;
+	border-bottom: 1px solid #df3822;
 }
 
 textarea {
@@ -379,7 +380,7 @@ button {
 }
 
 button:hover {
-	border-bottom: 1px solid #f26b38;
+	border-bottom: 1px solid #df3822;
 }
 
 label,
@@ -619,20 +620,20 @@ blockquote {
 
 	.glitch-effect-white:before,
 	.glitch-effect-white:after {
-		background: #f26b38;
+		background: #df3822;
 	}
 
 	.glitch-effect:after,
 	.glitch-effect-white:after {
 		left: 2px;
-		text-shadow: -1px 0 #f26b38;
+		text-shadow: -1px 0 #df3822;
 		animation: glitch-1 2s infinite linear alternate-reverse;
 	}
 
 	.glitch-effect:before,
 	.glitch-effect-white:before {
 		left: -2px;
-		text-shadow: 2px 0 #f26b38;
+		text-shadow: 2px 0 #df3822;
 		animation: glitch-2 2s infinite linear alternate-reverse;
 	}
 
